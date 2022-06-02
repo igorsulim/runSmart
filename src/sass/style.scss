@@ -1,0 +1,17 @@
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
+}
+
+@import 'base/_variables';
+@import 'blocks/_promo';
+@import 'base/_media';
+@import 'base/_mixins';
+@import 'blocks/header';
+@import 'blocks/_button';
+@import 'blocks/benefits';
+@import 'base/media';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
