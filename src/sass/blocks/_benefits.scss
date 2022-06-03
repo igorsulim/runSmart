@@ -1,7 +1,7 @@
 .benefits {
     min-height: 470px;
-    padding-top: 73px;
-    
+    padding: 73px 0 0 0;
+
     h2 {
         color: #0D0D0D;
         font-weight: 700;
@@ -28,12 +28,13 @@
             display: block;
             margin: 0 auto;
         }
-
+        span {
+            color: red;
+        }
     }
 
     &__subheader {
         margin: 35px 0 20px 0;
-
         color: #0D0D0D;
         font-weight: 700;
         font-size: 18px;
