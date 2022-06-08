@@ -1,7 +1,9 @@
 * {
     font-family: 'MuseoSansCyrl', sans-serif;
+    box-sizing: border-box;
 }
 
+@import 'blocks/slider';
 @import 'base/_variables';
 @import 'blocks/_promo';
 @import 'base/_mixins';

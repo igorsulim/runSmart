@@ -4,6 +4,7 @@
     }
 
     .benefits {
+        padding: 73px 0 40px 0;
 
         &__wrapper {
             flex-direction: column;
@@ -21,9 +22,16 @@
     }
 
     .consultation {
-        padding: 100px 20px 0 20px;
+        padding: 50px 20px 0 20px;
+        &__descr {
+            font-size: 18px;
+        }
     }
     
+    .title {
+        font-size: 30px;
+        line-height: 44px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -40,6 +48,17 @@
             align-items: center;
             margin-top: 90px;
         }
+    }
+
+    .consultation {
+        &__descr {
+            font-size: 16px;
+        }
+    }
+    
+    .title {
+        font-size: 24px;
+        line-height: 40px;
     }
 }
 
@@ -113,7 +132,7 @@
     }
 
     .benefits {
-        padding: 73px 20px 0 20px;
+        padding: 73px 20px 40px 20px;
 
         &__definite {
             width: 80%;
@@ -121,6 +140,36 @@
             &:nth-child(1) {
                 margin-top: 0;
             }
+        }
+    }
+
+    .consultation {
+        min-height: 600px;
+        padding: 50px 20px 0 20px;
+        &__descr {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .feed-form {
+        margin: 30px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .slider {
+        .swiper-button-prev {
+            display: none;
+        }
+        .swiper-button-next {
+            display: none;
         }
     }
 }

@@ -14,7 +14,6 @@ gulp.task('server', function() { // Здесть "server" просто назв�
     });
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
-    gulp.watch("src/css/*.css").on('change', browserSync.reload); //обновление страницы при изменении .html
 });
 
 gulp.task('styles', function() {
