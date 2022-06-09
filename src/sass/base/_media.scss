@@ -60,6 +60,15 @@
         font-size: 24px;
         line-height: 40px;
     }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 20px;
+        }
+    }
 }
 
 @media (max-width: 575px) {

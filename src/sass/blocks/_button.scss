@@ -4,6 +4,7 @@
     border-radius: 5px;
     border: none;
     background-color: $main-color;
+    cursor: pointer;
 
     color: #FFFFFF;
     font-weight: 500;
@@ -34,5 +35,15 @@
         font-size: 16px;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    &_buy {
+        width: 135px;
+        height: 44px;
+        font-weight: 500;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
     }
 }
